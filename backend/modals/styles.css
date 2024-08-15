@@ -1,0 +1,10 @@
+/* Define a class for the divs to style them as boxes */
+.box {
+    border: 2px solid #ccc; /* Add a border to create the box */
+    padding: 10px; /* Add padding to create space inside the box */
+    margin: 10px; /* Add margin to separate the boxes */
+    width: 200px; /* Set a fixed width for the boxes */
+    background-color: #f0f0f0; /* Background color for the boxes */
+    text-align: center; /* Center the text inside the box */
+  }
+  

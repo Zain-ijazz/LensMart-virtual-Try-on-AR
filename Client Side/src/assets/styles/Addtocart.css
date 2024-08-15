@@ -1,0 +1,181 @@
+/* Addtocart.css */
+
+/* Style for the container with a border and border-radius */
+
+.bordered-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: flex-start; /* Align items to the top */
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80vw;
+  margin: 70px auto; /* Center horizontally */
+  background-color: #f5f5f5;
+}
+
+/* Style for the main product container */
+.product-container {
+  display: flex;
+  margin-top: 50px;
+  width: 100%; /* Expand to fill the parent (50vw) */
+}
+
+/* Rest of your CSS remains unchanged */
+
+
+
+/* Style for the left side (image and image tray) */
+.product-image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+
+  
+}
+
+.main-image img {
+
+  max-width: 300px; /* Adjust the size as needed */
+  height: 300px;
+  border: 2px solid rgb(219, 216, 216);
+  margin-top: -50px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+
+}
+
+.image-tray {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.image-tray img {
+  width: 80px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+/* Style for the right side (product details and buttons) */
+.product-container .product-detailsCart {
+  flex: 1;
+  text-align: center;
+  margin-top: 14px;
+  margin-left: 20px; /* Adjust the spacing as needed */
+}
+
+
+
+.product-detailsCart h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+
+
+/* Style for the buttons container at the bottom */
+.buttons-container {
+  margin-top: 50px;
+  /* background-color: aqua; */
+}
+
+button {
+  background-color: #96dfba; /* Subtle color */
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.buttons-container .addtocartbuttton{
+  margin-right: 20px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.test{
+  background: #c01f1f;
+}
+
+.TryLens{
+  margin-top: 1rem;
+  margin-left: 5rem;
+  color: #5e5b5b;
+  font-size: larger;
+  font-style: inherit;
+}
+
+
+.backend-images-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 5rem;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0.5rem;
+  align-items: center;
+  width: 50%; /* Each section takes 50% of the container */
+  overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+.centered-image {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.backend-text-container {
+  margin-top: 20px;
+  padding: 0 5rem; /* Add spacing on the left and right sides */
+}
+
+textarea {
+  width: 100%;
+  min-height: 200px;
+  font-size: large;
+  font-style: italic;
+  background: #b9b8b8;
+  padding: 10px;
+  color: #000;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  resize: vertical; /* Allow vertical resizing of the textarea */
+  border: 2px solid #797777; /* Add a border for depth */
+  border-radius: 10px; /* Add rounded corners for style */
+}
+
+.review-section {
+  margin: 0 6rem; /* Add spacing on both sides */
+}
+
+.review-item {
+  margin-bottom: 10px; /* Add some space between review items */
+}

@@ -1,0 +1,68 @@
+/* SignUp.css */
+
+/* Container styles */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+       
+
+ 
+  }
+  
+  /* Form styles */
+  .signup-form {
+
+    background-color: #0f0e17;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 35vw;
+    padding: 3%;
+    /* max-width: 400px; Adjust the maximum width as needed */
+  }
+ 
+  /* Input styles */
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"],
+  .signup-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    /* margin-left: 11%; */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Button styles */
+  /* .signup-form button {
+    background-color: #96dfba;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  }
+  
+  .signup-form button:hover {
+    color:#ccc;
+    background-color: #0056b3;
+  } */
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust container styles for smaller screens */
+    .signup-container {
+      padding: 20px; /* Add some padding to center the form */
+    }
+  
+    /* Adjust form width for smaller screens */
+    .signup-form {
+      width: 100%; /* Form spans the entire width on smaller screens */
+    }
+  }
+  

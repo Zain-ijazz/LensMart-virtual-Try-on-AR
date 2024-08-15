@@ -1,0 +1,187 @@
+/* HeroSection.css */
+
+/* Common styles for the hero section */
+/*.hero-section {
+    position: relative;
+    overflow: hidden;
+    background-color: #333; 
+    height: 60vh; 
+  }
+  
+  .carousel-container {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .carousel-content {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .carousel-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  */
+
+  /* HeroSection.css */
+
+/* Common styles for the hero section */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #333; /* Fallback background color */
+  height: 80vh; /* Adjust the height as needed */
+}
+
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  height: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  /*object-fit: cover;*/
+  max-height: fit-content;
+}
+
+.carousel-content {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.carousel-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.carousel-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .carousel-content h1 {
+    font-size: 24px;
+  }
+
+  .carousel-content p {
+    font-size: 16px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+  }
+
+  /* Adjustments for smaller screens */
+  .carousel-slide {
+    flex-direction: column;
+  }
+
+  .carousel-image {
+    object-fit: cover; /* Adjust the max height as needed */
+  }
+  .hero-section{
+    height: 50vh;
+  }
+}
+
+/* Additional Media Queries for Larger Screens */
+@media (min-width: 1200px) {
+  .carousel-content h1 {
+    font-size: 48px;
+  }
+
+  .carousel-content p {
+    font-size: 20px;
+  }
+}

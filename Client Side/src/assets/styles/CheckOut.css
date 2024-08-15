@@ -1,0 +1,104 @@
+/* Default styles */
+.checkout-container {
+  display: flex;
+  /* flex-direction: column; */
+  margin: 20px;
+  gap: 1rem;
+}
+
+.checkout-left,
+.checkout-right {
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.checkout-right{
+  width: 40%;
+}
+
+.product-container-checkout{
+  overflow-y: scroll;
+  height: 60vh;
+}
+.checkout-right .product-cart{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: auto; /* 70% of the viewport width */
+  height: 150px;
+  padding: 20px;
+  /* margin-left: 5px; */
+  margin-bottom: 20px;
+  max-width: none; /* Remove any max-width constraint */
+}
+
+.Prod_infom{
+  margin-left: 20px;
+}
+
+.payment-methods {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  gap: 10px;
+}
+
+.payment-methods button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  /* flex-basis: calc(50% - 5px); Two buttons per row */
+  margin: 0;
+}
+
+.user-details{
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details input {
+  /* width: 100%; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.checkout-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.order-details p {
+  margin: 10px 0;
+}
+.Disabled{
+  opacity: 0.6; /* Optionally reduce opacity to visually indicate it's disabled */
+  cursor: not-allowed; /* Change cursor to indicate it's not clickable */
+  pointer-events: none; /* Disable pointer events to prevent interaction */
+}
+
+/* Responsive styles for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .checkout-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .checkout-left,
+  .checkout-right {
+    width: 100%;
+  }
+
+  .payment-methods button {
+    flex-basis: 100%; /* Single button per row */
+  }
+}

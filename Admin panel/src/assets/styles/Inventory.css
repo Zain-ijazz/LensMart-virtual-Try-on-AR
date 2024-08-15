@@ -1,0 +1,70 @@
+/* Inventory.css */
+/* Your existing CSS */
+
+.inventory-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.inventory-table th {
+  background-color: #FFD333;
+  /* color: #fff; */
+}
+
+.inventory-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.inventory-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* Style for product images */
+.inventory-table img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/* Style for edit and delete buttons */
+.edit-button,
+.delete-button {
+  background-color: #FFD333;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .inventory-container {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .inventory-table {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+}

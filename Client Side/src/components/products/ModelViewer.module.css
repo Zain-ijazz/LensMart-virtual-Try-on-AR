@@ -1,0 +1,11 @@
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+  position:fixed;
+left: 0;
+ 
+  background-color: rgb(255, 255, 255);
+ }
+
+

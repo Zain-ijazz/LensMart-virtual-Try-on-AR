@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+    
+    body{
+        font-family: 'Rubik', sans-serif; 
+        background-color: #fffffe;
+    }
+
+    ::-moz-selection { /* Code for Firefox */
+        color: #fffffe;
+        background: #ff8906;
+      }
+      
+      ::selection {
+        color: #fffffe;
+        background: #ff8906;
+      }
+
+      .montserrat-headline {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 48px; 
+       
+      }
+
+      .hind-madurai-regular {
+        font-family: "Hind Madurai", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+      }
+
+      .hind-madurai-medium {
+        font-family: "Hind Madurai", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+      }
+

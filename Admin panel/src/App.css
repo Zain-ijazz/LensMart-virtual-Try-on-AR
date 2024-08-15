@@ -1,0 +1,13 @@
+.add{
+
+margin-left: 18%;
+
+}
+@media screen and (max-width: 768px) {
+    .add{
+
+        margin-left: 0px;
+        
+        }
+  }
+  

@@ -1,0 +1,60 @@
+/* OrderSuccessful.css */
+
+.order-successful-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+ 
+  
+  .order-successful-content {
+   margin-top: 200px;
+    text-align: center;
+    color: #000000;
+     
+    position: relative;
+
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .background-image {
+    width: 50%;
+    max-width: 800px;
+   margin-top: -300px;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes waveAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,75 @@
+/* AdminDashboard.css */
+
+.admin-dashboard-container {
+    padding: 20px;
+    /* margin-left: 6%; */
+    /* width: 82%; */
+    /* position: relative; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+  }
+  
+  .dashboard-card {
+    /* flex-basis: calc(33.33% - 20px); Adjust as needed for card spacing */
+    display: flex; /* Enable flexbox */
+  flex-direction: column; /* Arrange content vertically (optional) */
+  align-items: center;
+    padding: 15px;
+    background-color: #ffd849;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    width: 21%;
+    height: 9rem;
+    /* box-shadow: 4px 4px 5px 5px rgba(255, 255, 255, 0.18); */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+  }
+  
+  /* .dashboard-card:hover {
+    transform: scale(1.05);
+  } */
+  
+  .dashboard-card h3 {
+    font-size: 20px;
+    margin-bottom: auto;
+    padding: 0%;
+    /* padding: 20px; */
+  }
+  .dashboard-card p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: auto;
+    
+    /* padding: 20px; */
+  }
+  
+  /* Styling for charts and graphs goes here */
+  .icons{
+    display: block;
+    width: 20%; 
+    height: 2rem; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .dashboard-card {
+      flex-basis: calc(50% - 20px); /* Adjust for smaller screens */
+    }
+  }
+  
